@@ -33,7 +33,9 @@ def ej1():
 
     stock = {}
 
-    stock = {'tornillos' : 100, 'tuercas' :150, 'arandelas' : 300}
+    stock['tornillos'] = 100
+    stock['tuercas'] = 150
+    stock['arandelas'] = 300
 
     print ('Stock:', stock)
 
